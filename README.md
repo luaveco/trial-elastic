@@ -15,13 +15,17 @@ Follow the manual installation steps for older versions of WSL on [Microsoft Lea
 
 ### Verify Docker is Running
 
-Check if Docker is in a running state by executing the command `docker ps`. Initially, these columns will be empty.
+Check if Docker is in a running state by executing the command: 
+ ```console
+    docker ps
+ ```
+Initially, these columns will be empty.
 
 ### Download the ELK Archive File
 
-Download this repositoy, you can use download above, or clone the repo:
+Download this repositoy, you can use download link above, or clone the repo:
  ```console
-    $ git clone git@gitlab.aveco.com:monitoring-support/elk-docker-for-support.git
+    git clone git@gitlab.aveco.com:monitoring-support/elk-docker-for-support.git
  ```
 
 ### Unzip and Switch to the Directory
@@ -33,7 +37,7 @@ Download this repositoy, you can use download above, or clone the repo:
 
 Download all necessary files by executing the command 
  ```console
-	$ docker-compose up -d
+	docker-compose up -d
  ```
 
 Wait for the containers to be downloaded, built and launched, it will take a while.
@@ -42,7 +46,7 @@ Wait for the containers to be downloaded, built and launched, it will take a whi
 
 Confirm that all the services are running.
  ```console
-	$ docker-compose ps 
+	docker-compose ps 
  ```
 
 ### Access Kibana in a Web Browser
