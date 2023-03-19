@@ -68,6 +68,6 @@ Confirm that all the services are running.
 Open Kibana again and navigate to `Discover`. You should now see your own logs.
 
 **Note**
-This ELK-compose was built on the original repo from Anthiny Lapenna.
-Here is the original repo link:
+*This ELK-compose was built on the original repo from Anthony Lapenna.
+Here is the original repo link:*
 https://github.com/deviantony/docker-elk
