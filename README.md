@@ -23,7 +23,7 @@ Initially, these columns will be empty.
 
 ### Download the ELK Archive File
 
-Download this repositoy, you can use download link above, or clone the repo:
+Download this archive, you can use download link above, or clone the repo:
  ```console
     git clone git@gitlab.aveco.com:monitoring-support/elk-docker-for-support.git
  ```
@@ -69,6 +69,5 @@ Open Kibana again and navigate to `Discover`. You should now see your own logs.
 
 
 **Note**
-*This ELK-compose was built on the original repo from Anthony Lapenna.
-Here is the original repo link:*
+*This ELK-compose was built on the original repo from Anthony Lapenna:*
 https://github.com/deviantony/docker-elk
