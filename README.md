@@ -11,7 +11,7 @@ Follow the manual installation steps for older versions of WSL on [Microsoft Lea
 ### Download and Install Docker Desktop
 
 1. Download Docker Desktop from [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/).
-2. Install Docker Desktop. It is not necessary to change anything in the installation. A system restart is required after installation. In case of a problem, you can contact Václav Janů.
+2. Install Docker Desktop. It is not necessary to change anything in the installation. A system restart is required after installation.
 
 ### Verify Docker is Running
 
@@ -29,15 +29,21 @@ Download this repositoy, you can use download above, or clone the repo:
 1. Unzip the file to the your local folder. (skip this step if you used 'git clone' )
 2. In a terminal, switch to this folder. For example: `cd ~/Desktop/elk`.
 
-### Download Necessary Files
+### Build and launch ELK containers
 
-Download all necessary files by executing the command `docker-compose up -d`.
+Download all necessary files by executing the command 
+ ```console
+	$ docker-compose up -d
+ ```
 
-Wait for the download to finish, it will take a while.
+Wait for the containers to be downloaded, built and launched, it will take a while.
 
 ### Verify Services are Running
 
-Execute the command `docker-compose ps` to confirm that the services are running.
+Confirm that all the services are running.
+ ```console
+	$ docker-compose ps 
+ ```
 
 ### Access Kibana in a Web Browser
 
