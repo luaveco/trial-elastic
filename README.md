@@ -1,6 +1,6 @@
 # ELK Stack in Docker Containers
 
-This project provides a Docker-based installation of the ELK (Elasticsearch, Logstash, Kibana) stack on your local PC. The ELK stack is a powerful tool for analyzing logs, enabling you to quickly search, visualize, and analyze your log data in real-time.
+This project provides a Docker-based installation of the ELK (Elasticsearch, Logstash, Kibana and FileBeat) stack on your local PC. The ELK stack is a powerful tool for analyzing logs, enabling you to quickly search, visualize, and analyze your log data in real-time.
 
 ## Installation
 
@@ -66,6 +66,7 @@ Confirm that all the services are running.
 ### View Your Logs in Kibana
 
 Open Kibana again and navigate to `Discover`. You should now see your own logs.
+
 
 **Note**
 *This ELK-compose was built on the original repo from Anthony Lapenna.
