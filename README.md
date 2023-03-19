@@ -42,6 +42,8 @@ Download all necessary files by executing the command
 
 Wait for the containers to be downloaded, built and launched, it will take a while.
 
+![Animated demo](https://user-images.githubusercontent.com/3299086/155972072-0c89d6db-707a-47a1-818b-5f976565f95a.gif)
+
 ### Verify Services are Running
 
 Confirm that all the services are running.
