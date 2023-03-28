@@ -4,7 +4,7 @@
 filebeat.inputs:
   - type: log
     paths:
-      - /tmp/test-data/*/*
+      - /tmp/test-data/*/*.log
 #    json.keys_under_root: true
 #    json.add_error_key: true
 
