@@ -25,7 +25,7 @@ Initially, these columns will be empty.
 
 Download this archive, you can use download link above, or clone the repo:
  ```console
-    git clone git@gitlab.aveco.com:monitoring-support/elk-docker-for-support.git
+    git clone https://github.com/luaveco/trial-elastic.git
  ```
 
 ### Unzip and Switch to the Directory
