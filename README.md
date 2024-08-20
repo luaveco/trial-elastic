@@ -60,8 +60,8 @@ Confirm that all the services are running.
 ### Upload Your Own Logs
 
 1. Find the folder you unzipped and upload your own logs to your chosen location.
-2. Navigate to `docker-elk/filebeat/test-data`.
-3. Delete the test logs and upload your own logs.
+2. Navigate to your docker deployment folder (probably trial-elastic) and from there to `./filebeat/test-data`.
+3. Upload your logs in there (you can make a subfolder for your logs).
 
 ### View Your Logs in Kibana
 
